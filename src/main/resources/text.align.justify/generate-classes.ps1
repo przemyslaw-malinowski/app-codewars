@@ -1,0 +1,2 @@
+$jdk = "C:\Users\twjb38\.jdks\corretto-1.8.0_302\bin"
+Start-Process "$jdk\xjc" -ArgumentList ".\product-type.xsd", "-p org.malinowsky.brewkit.xml.productType"#, "-d ..\..\java\org\malinowsky\appcodewars\text\align\justify\xml\"

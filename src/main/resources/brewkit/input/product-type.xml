@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<productTypes>
+    <productType>
+        <name>Hop</name>
+        <code>HOP</code>
+    </productType>
+    <productType>
+        <name>Liquid</name>
+        <code>LIQUID</code>
+    </productType>
+    <productType>
+        <name>Malt</name>
+        <code>MALT</code>
+    </productType>
+    <productType>
+        <name>Spice</name>
+        <code>SPICE</code>
+    </productType>
+    <productType>
+        <name>Other</name>
+        <code>OTHER</code>
+    </productType>
+</productTypes>

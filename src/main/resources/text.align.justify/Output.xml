@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<response>
+    <quantity>2</quantity>
+    <results>
+        <result nr="1">text</result>
+        <result nr="1">text2</result>
+    </results>
+</response>
