@@ -73,18 +73,18 @@
             <scope>provided</scope>
         </dependency>
 
-        <dependency>
-            <groupId>org.malinowsky</groupId>
-            <artifactId>app-codewars-scala</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.malinowsky</groupId>
-            <artifactId>app-codewars-scala</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.malinowsky</groupId>-->
+<!--            <artifactId>app-codewars-scala</artifactId>-->
+<!--            <version>1.0-SNAPSHOT</version>-->
+<!--            <scope>compile</scope>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.malinowsky</groupId>-->
+<!--            <artifactId>app-codewars-scala</artifactId>-->
+<!--            <version>1.0-SNAPSHOT</version>-->
+<!--            <scope>compile</scope>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.glassfish</groupId>
             <artifactId>javax.json</artifactId>
