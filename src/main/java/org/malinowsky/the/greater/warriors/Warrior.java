@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Warrior {
-    private int level;
-    private String rank;
     private int experience;
     private List<String> achievements;
 
@@ -16,7 +14,7 @@ public class Warrior {
     public Warrior(int experience) {
         System.out.println("Create new warrior");
         System.out.println(experience);
-        System.out.println(level);
+        System.out.println(level());
         this.experience = experience;
         this.achievements = new ArrayList<>();
     }
@@ -37,6 +35,7 @@ public class Warrior {
             case 7: return "Conqueror";
             case 8: return "Champion";
             case 9: return "Master";
+            case 10: return "Greatest";
         }
         throw new IllegalStateException();
     }
@@ -48,7 +47,7 @@ public class Warrior {
     private void setExperience(int newExp) {
         experience = (experience + newExp < 10000) ?
                         experience + newExp :
-                        100;
+                        10000;
     }
 
     public String battle(int level) {
