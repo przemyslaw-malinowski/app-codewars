@@ -8,6 +8,8 @@ public class RomanNumeralsTest {
 
     @Test
     public void shouldWork() {
-        RomanNumerals.toRoman(1990);
+//        System.out.println(RomanNumerals.toRoman(1666));
+        System.out.println(RomanNumerals.fromRoman("MMVIII"));
+        System.out.println(RomanNumerals.fromRoman("MCMXC"));
     }
 }
